@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YoutubeApi</title>
+    <link rel="stylesheet" href="./youtube.css">
+    <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/2560px-YouTube_full-color_icon_%282017%29.svg.png" type="image/x-icon">
+
+
+</head>
+<body>
+
+    <nav class="navbar">
+
+        <div class="sidebotton" onclick="myFunction()">
+            <span></span>
+            <span></span>
+            <span></span>
+           
+        </div>
+        <a href="index.html"> <img src="./youtube_logo.jpeg" class="logo"/></a>
+        <div class="searchBox">
+            <input oninput="debounce(main,2000)" type="text" id="search" placeholder="Search Here"/>
+         
+        <button onclick="searchVideo()" class="searchbtn"><img src="./magnifier.png"></button>
+
+        </div>
+        <div  class="user-option">
+            <img src="./grid-icon-17.jpg" class="icon">
+            <img src="./bell.jpg" class="icon">
+            <img src="./youtubeacc.jpeg" class="icon">
+        </div>
+        
+    </nav>
+ 
+   <div id="show"></div>
+   <div id="mainblock">
+       <div id="siderblock">Sidebar</div>
+   <div id="videoYoutube">
+   </div>
+</div>
+
+
+</body>
+
+
+
+
+
+
+<script src="./srcipt/Youtube.js">
+   
+  
+
+</script>
+
+
+<script type="module">
+    import sidebar from "./components/sidebar.js";
+    console.log(sidebar)
+    let header=document.querySelector("#siderblock")
+header.innerHTML=sidebar();
+</script>
+</html>

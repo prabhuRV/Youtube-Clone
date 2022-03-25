@@ -1,0 +1,229 @@
+#videoYoutube
+    {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        /* border: solid; */
+        gap: 15px;
+        width: 90%;
+        margin: auto;
+        /* margin-left: 15%; */
+        background-color: #f0f0f0;
+        margin-bottom: 10px;
+        height: inherit;
+    
+    }
+    #videoYoutube>div{
+        /* padding-top: 30px; */
+       
+        height: inherit;
+        /* border: red 3px solid; */
+       
+    }
+    #forimagethumblin
+    {
+        cursor: pointer;
+       
+        width: 100%;
+        height: 180px;
+    }
+    #informationtag
+    {
+      
+        
+        /* border:2px solid palegreen; */
+        /* height: inherit; */
+        margin-top: 10px;
+        display: flex;
+         font-size: 18px;
+        justify-content: space-around;
+       
+    }
+    #icon
+    {
+        margin-top: 20px;
+      width: 40px;
+      height: 40px;
+      /* border: 2px solid rgb(224, 220, 215);   */
+      border-radius:20px ;
+    }
+    #informationtag>div:nth-child(2)
+    {
+        font-family :Roboto, Arial, sans-serif;
+        margin-left: 20px;
+      
+    }
+    p{
+        margin-top: 8px;
+        line-height: 10px;
+        color: #8f8f8f;
+        font-size:12px;
+        
+    }
+    #thumbnail
+    {
+        width: 100%;
+        height: 100%;
+    }
+
+#show
+{
+    margin-top: 60px;
+}
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+    
+    *:focus{
+        outline: none;
+    }
+    body{
+        position: relative;
+        background-color: #f0f0f0;
+        font-family: 'roboto',sans-serif;
+
+    }
+    #logo
+    {
+        /* border: 2px rgb(7, 7, 7) solid; */
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        
+    }
+    #headingh6
+    {
+        margin-left: 10px;
+   
+    }
+    .forpaddingleft
+    {
+        margin-left: 50px;
+    }
+
+
+
+
+
+
+    .navbar
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 60px;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        padding: 0 2.5vw;
+    }
+    .sidebotton
+    {
+        width: 20px;
+        height: 10px;
+        position: relative;
+        cursor: pointer;
+    }
+    .sidebotton span
+    {
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        top: 50%;
+        transform: translateY(-50%);
+        background: #979797;
+    }
+    .sidebotton span:nth-child(1)
+    {
+        top: 0;
+    }
+    .sidebotton span:nth-child(2)
+    {
+        top: 100%;
+    }
+    .logo
+    {
+     
+        height: 40px;
+        padding-bottom: 5px;
+       margin-left: 10px;
+    }
+    .searchBox
+    {
+        margin-left: 20%;
+        position: relative;
+        max-width: 700px;
+        width: 60%;
+        height: 35px;
+        display: flex;
+
+    }
+
+    #search
+    {
+        width: 95%;
+        height: 100%;
+        border: 2px solid #dbdbdb;
+        padding: 0 20px;
+        font-size: 16px;
+        text-transform: capitalize;
+    }
+    .searchbtn
+    {
+        width: 15%;
+        height: 100%;
+        background: #f0f0f0;
+        border: 2px solid #dbdbdb;
+        padding-left: 5px 0;
+        border-left:none;
+    }
+    .searchbtn img{
+        height: 100%;
+    }
+    .user-option
+    {
+        height: 35px;
+        display: flex;
+        margin-left: auto;
+        align-items: center;
+
+    }
+    .user-option .icon
+    {
+        height: 80%;
+        margin-right: 20%;
+        cursor: pointer;
+    }
+    .iconn{
+        width: 20px;
+        height: 20px;
+    }
+
+    #mainblock
+    {
+        display: flex;
+        gap: 10px;
+    } 
+    #siderblock
+    {
+        position: static;
+        width: 200px;
+        background-color:#ffffff ;
+        /* border: solid; */
+        display: block;
+    }
+    a{
+        display: block;
+        font-size: 13px;
+        line-height: 30px;
+        color: rgb(8, 8, 8);
+        gap: 20px;
+        text-decoration: none;
+    }
+    a img{
+        margin-right: 20px;
+    }
